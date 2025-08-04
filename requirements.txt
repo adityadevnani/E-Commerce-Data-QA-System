@@ -9,6 +9,6 @@ langchain-openai>=0.0.5
 langchain-community>=0.0.5
 
 typing-extensions>=4.5
-# 👇 Add these missing dependencies
-matplotlib
-seaborn
+
+matplotlib>=3.7
+seaborn>=0.12
