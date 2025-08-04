@@ -2,6 +2,13 @@
 
 An intelligent, conversational AI agent built with Streamlit and LangChain that allows users to ask questions about an e-commerce dataset in natural language. The agent can provide direct answers, display data tables, and generate dynamic plots and summaries.
 
+## 📦 Dataset Source
+
+This project uses a publicly available dataset from Kaggle:  
+**[E-Commerce Order Dataset by Bytadit](https://www.kaggle.com/datasets/bytadit/ecommerce-order-dataset)**  
+It includes multiple CSV files related to orders, customers, products, payments, and logistics.
+
+
 ## Key Features
 
 - **Natural Language Querying:** Ask complex questions about customers, orders, products, and payments in plain English.
