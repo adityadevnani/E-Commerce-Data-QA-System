@@ -6,7 +6,7 @@ An intelligent, conversational AI agent built with Streamlit and LangChain that 
 
 This project uses a publicly available dataset from Kaggle:  
 **[E-Commerce Order Dataset by Bytadit](https://www.kaggle.com/datasets/bytadit/ecommerce-order-dataset)**  
-It includes multiple CSV files related to orders, customers, products, payments, and logistics.
+It includes multiple CSV files related to orders, order_items, customers, payments and products.
 
 
 ## Key Features
