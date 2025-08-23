@@ -29,10 +29,11 @@ The application uses a powerful multi-agent architecture:
 
 ## Project Structure
 
+```
 ecommerce_agent_project/
 │
 ├── agents/
-│   ├── init.py
+│   ├── __init__.py
 │   ├── customer_agent.py
 │   ├── graph_agent.py
 │   ├── logistics_agent.py
@@ -57,6 +58,7 @@ ecommerce_agent_project/
 ├── .gitignore
 ├── app.py
 └── requirements.txt
+```
 
 
 ## Setup and Installation
