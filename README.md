@@ -18,13 +18,13 @@ It includes multiple CSV files related to orders, order_items, customers, paymen
 - **Intelligent UI:** The interface intelligently decides what to show (a simple answer, a table, a plot, or a combination) based on the user's query.
 - **Conversational Memory:** The agent remembers the context of the conversation, allowing for natural follow-up questions.
 
-## How It Works: A Team of AI Experts
+## How It Works
 
-The application uses a powerful multi-agent architecture where different AI agents work together as a team to answer your questions.
+The application uses a powerful multi-agent architecture:
 
 * **The User Interface (`app.py`):** The Streamlit frontend that you interact with. It manages the chat history and displays the final results.
 * **The Manager (`graph_agent.py`):** The main "brain" of the application. It receives your question, decides which specialist is needed, and creates the final summary.
-* **The Specialists (`order_agent.py`, `customer_agent.py`, etc.):** These are expert AI agents, each trained to handle a specific dataset (orders, customers, etc.). Their only job is to write and execute Python pandas code to find the exact data you need.
+* **The Specialists (`order_agent.py`, `customer_agent.py`, `payment_agent.py`, `product_agent.py`, `logistics_agent.py`):** These are expert AI agents, each trained to handle a specific dataset (orders, order_items, customers, payment and products.). Their only job is to write and execute Python pandas code to find the exact data you need.
 * **The Artist (`plot_agent.py`):** A specialist AI that takes the data prepared by other agents and writes Python matplotlib/seaborn code to draw the graphs and charts.
 
 ## Project Structure
