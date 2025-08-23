@@ -11,12 +11,12 @@ It includes multiple CSV files related to orders, order_items, customers, paymen
 
 ## Key Features
 
-- **Natural Language Querying:** Ask complex questions about customers, orders, products, and payments in plain English.
+- **Natural Language Querying:** Ask complex questions about customers, orders, products, and payments.
 - **Data Table Display:** View detailed, raw data tables for your queries.
 - **Dynamic Chart Generation:** Request plots and graphs to visualize data. The system automatically prepares the data and generates charts.
 - **AI-Generated Summaries:** Get concise, multi-line summaries for any data or plot you request.
 - **Intelligent UI:** The interface intelligently decides what to show (a simple answer, a table, a plot, or a combination) based on the user's query.
-- **Conversational Memory:** The agent remembers the context of the conversation, allowing for natural follow-up questions.
+
 
 ## How It Works
 
